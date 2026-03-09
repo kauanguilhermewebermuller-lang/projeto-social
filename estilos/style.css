@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,body {
     margin: 0px;
     height: 100vw;
     width: 100vw;
@@ -15,7 +15,13 @@ html, body {
     background-attachment: fixed;
 }
 
+body {
+    margin: 0px;
+
+}
+
 section#telefone {
+    margin: 0px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,11 +32,12 @@ section#telefone {
     background:  url(../imagens/frame-iphone.png) no-repeat;
 }
 iframe#tela {
+    margin: 0px;
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
-    height: 471px; 
+    width: 263px;
+    height: 467px; 
 }   
 
 section#redes-sociais {
